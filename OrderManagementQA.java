@@ -349,7 +349,7 @@ public class OrderManagementQA {
             double expectedDiscount = 50;
             double discountedAmount = 1000 - expectedDiscount;
             double expectedGST = discountedAmount * 0.18;
-            double expectedShipping = 0;
+            double expectedShipping = 100;
 
             double expectedFinal =
                     discountedAmount +
